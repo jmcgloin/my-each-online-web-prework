@@ -7,4 +7,4 @@ def my_each (col)
   col
 end
 
-my_each(col) {puts i}
+my_each {|i| puts i}
