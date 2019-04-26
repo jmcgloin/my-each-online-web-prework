@@ -1,10 +1,10 @@
 def my_each (col)
   i = 0
   while i < col.count do
-    puts col[i]
+    yield i
     i += 1
   end
   col
 end
 
-puts my_each()
+my_each(col) {puts i}
