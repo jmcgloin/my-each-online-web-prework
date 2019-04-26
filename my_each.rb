@@ -1,7 +1,7 @@
 def my_each (col)
   i = 0
   while i < col.count do
-    yield i
+    yield col[i]
     i += 1
   end
   col
