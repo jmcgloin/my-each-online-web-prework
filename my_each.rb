@@ -6,3 +6,5 @@ def my_each (col)
   end
   col
 end
+
+puts 
