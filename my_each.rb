@@ -7,4 +7,4 @@ def my_each (col)
   col
 end
 
-puts 
+puts my_each()
